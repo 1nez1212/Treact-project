@@ -184,6 +184,20 @@ h2 {
  padding: 80px 0;
 }
 
+.services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services{
+    display: flex;
+    width:calc(100%/3)
+}
+
+.service__description {
+    display: flex;
+    flex-direction: column;
+}
 
 /* 
 
