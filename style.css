@@ -150,18 +150,28 @@ NAVIGATION
 
 */
 
-.nav-links {
+.nav__links {
     display: flex;
     align-items: center;
     gap: 38px;
 }
 
-.nav-links a {
+.nav__links a {
     text-decoration: none;
     color:#243e63;
 
     font-size: 15px;
     font-weight: 600;
+}
+
+/* Sign up */
+.signup-bottom {
+    background: #4c51bf;
+    color: white !important;
+
+    padding: 14px 28px;
+
+    border-radius: 4px;
 }
 
 
