@@ -135,6 +135,8 @@ nav {
 }
 
 
+
+
 /* 
 
 HEADER / ABOUT US ↓
@@ -151,6 +153,24 @@ header .row {
 .header {
     display:flex;
 
+
+}
+
+
+/* 
+
+HERO SECTION
+
+*/
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero p {
+    font-size:20px;
+    
 }
 
 
