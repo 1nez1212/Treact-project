@@ -17,6 +17,7 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
 }
 
 .nav {
@@ -158,13 +159,12 @@ NAVIGATION
 
 .nav__links a {
     text-decoration: none;
-    color:#243e63;
 
     font-size: 15px;
     font-weight: 600;
 }
 
-.nav__link--signup {
+.signup-button {
   padding: 12px 24px;
   background-color: #6415ff;
   color: white;
@@ -176,13 +176,14 @@ NAVIGATION
 .nav__logo {
     text-decoration: none;
     color:#243e63;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 900;
+
 }
 
 /* Sign up */
 .signup-bottom {
-    background: #4c51bf;
+    background: #243e63;
     color: white !important;
 
     padding: 16px 28px;
@@ -209,9 +210,11 @@ header .row {
 
 .header {
     display: flex;
-
-
 }
+
+
+
+
 
 
 /* 
@@ -220,15 +223,53 @@ HERO SECTION
 
 */
 
+
 .hero {
     text-align: column;
-    padding: 80px 20px;
+    padding: 80px 20px; 
 }
 
-.hero p {
-    font-size:20px;
-    
+.hero__form {
+    display: flex;
+    align-items: center;
+    width: 650px;
+    height: 80px;
+    padding: 8px;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
+
+.hero__form input {
+    flex: 1;
+    height: 100%;
+    padding: 0 24px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+}
+
+.hero__input::placeholder {
+    color: #b8b8b8;
+}
+
+.hero__form button {
+    height: 64px;
+    padding: 0 45px;
+    border: none;
+    border-radius: 50px;
+    background: #6415ff;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hero__row {
+    display: flex;
+}
+
 
 
 /* 
