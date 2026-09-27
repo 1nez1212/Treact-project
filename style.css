@@ -389,11 +389,35 @@ STEPS ↓
 
 .step {
     display: flex;
+    align-items: flex-start;
+    margin-top: 32px;
 }
 
 .step__title {
     font-weight: bold;
 }
+
+.step__number {
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.step__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+.steps__description,
+.steps__img--wrapper {
+    width: 50%;
+}
+
+
+
+
 
 
 
