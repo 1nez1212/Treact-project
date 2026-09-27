@@ -384,7 +384,6 @@ STEPS ↓
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction: column;
 }
 
 .step {
@@ -412,7 +411,7 @@ STEPS ↓
 
 .steps__description,
 .steps__img--wrapper {
-    width: 50%;
+    width: 100%;
 }
 
 
