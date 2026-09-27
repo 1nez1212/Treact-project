@@ -386,6 +386,16 @@ STEPS ↓
     align-items: center;
 }
 
+.step {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.step__title {
+    font-weight: bold;
+}
+
 
 /* 
 
