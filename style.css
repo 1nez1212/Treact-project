@@ -414,6 +414,12 @@ STEPS ↓
     width: 100%;
 }
 
+.steps__img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
