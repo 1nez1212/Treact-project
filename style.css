@@ -382,19 +382,19 @@ STEPS ↓
 
 #steps .row {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .step {
     display: flex;
-    width: 50%;
-    flex-direction: column;
 }
 
 .step__title {
     font-weight: bold;
 }
+
 
 
 /* 
