@@ -280,6 +280,10 @@ HERO SECTION
     width: 40%;
 }
 
+.hero__description img {
+    width: 100%;
+}
+
 
 
 
