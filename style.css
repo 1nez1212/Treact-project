@@ -369,6 +369,11 @@ QUALITY WORK ↓
     align-items: center;
 }
 
+.quality__img {
+    display: flex;
+    align-items: center;
+    
+}
 .font-weight {
   font-weight: 700;
   font-size: 28px;
@@ -464,7 +469,6 @@ flex-direction: column;
     display: flex;
     align-items: center;
     gap: 12px;
-    flex-direction: center;
 
 }
 
@@ -478,9 +482,10 @@ flex-direction: column;
     width: 100%;
     display: flex;
     flex-direction: flex;
+    align-items: flex;
 }
 
-.feature i {
+.values__description i {
     display: flex;
     color: green;
     font-size: 60px;
@@ -492,6 +497,7 @@ flex-direction: column;
     fill: rgb(155, 44, 44);
     width: 40px;
     height: 40px;
+    font-size: 60px;
 }
 
 .values__content button {
