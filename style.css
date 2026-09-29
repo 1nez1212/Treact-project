@@ -473,14 +473,15 @@ flex-direction: column;
 .feature i {
     display: flex;
     font-size: 40px;
-    color: green;
+    color: green
 }
 
-.feature i {
-    display: flex;
+.second-icon {
+    color: red;
     font-size: 40px;
-    color: green;
 }
+
+
 /*
 
 PRICING ↓
