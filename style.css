@@ -471,10 +471,16 @@ flex-direction: column;
 }
 
 .feature i {
+    display: flex;
     font-size: 40px;
     color: green;
 }
 
+.feature i {
+    display: flex;
+    font-size: 40px;
+    color: green;
+}
 /*
 
 PRICING ↓
