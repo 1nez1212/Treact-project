@@ -470,6 +470,11 @@ flex-direction: column;
     flex-direction: flex;
 }
 
+.feature i {
+    font-size: 40px;
+    color: green;
+}
+
 /*
 
 PRICING ↓
