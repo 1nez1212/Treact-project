@@ -484,9 +484,12 @@ VALUES ↓
 
 #values .row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    gap: 60px;
 }
+
 
 .values__description {
 display: flex;
@@ -498,14 +501,15 @@ flex-direction: row;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
 
 }
 
 
 .values__img--wrapper {
-    width: 50%;
-    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 .values__img {
@@ -521,6 +525,7 @@ flex-direction: row;
     font-size: 60px;
     width: 40px;
     height: 40px;
+
 }
 
 .briefcase {
@@ -531,6 +536,7 @@ flex-direction: row;
     display: flex;
     flex-direction: column;
 }
+
 
 .values__content button {
      display: flex;
