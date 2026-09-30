@@ -362,47 +362,38 @@ QUALITY WORK ↓
 
 */
 
-#quality-work {
+#quality {
     padding: 100px 0;
 }
 
 
 #quality .row {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 80px;
+
 }
 
-.quality-content {
-    flex: 1;
+.quality__content,
+.quality__img--wrapper {
+    width: 50%;
 }
 
-.quality-image {
-    flex: 1;
-}
 .quality__content {
-    width: 45%;
-    display: flex;
-    flex-direction: column;
+    padding-right: 64px;
 }
-.quality__img {
-    display: flex;
-    align-items: center;
-    width: 100%;
 
-    .quality__img--wrapper {
-        width: 100%;
-        display: flex;
-        max-width: 550px;
-    }
-    
+.quality__img--wrapper {
+    display: flex;
+    margin: 0;
 }
+
+.quality__img {
+    display: block;
+    width: 100%;
+}
+
+
 .font-weight {
   font-weight: 700;
   font-size: 28px;
