@@ -362,16 +362,45 @@ QUALITY WORK ↓
 
 */
 
+#quality-work {
+    padding: 100px 0;
+}
+
 
 #quality .row {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 80px;
 }
 
+.quality-content {
+    flex: 1;
+}
+
+.quality-image {
+    flex: 1;
+}
+.quality__content {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
 .quality__img {
     display: flex;
     align-items: center;
+    width: 50%;
+
+    .quality__img--wrapper {
+        width: 100%;
+        display: flex;
+        max-width: 550px;
+    }
     
 }
 .font-weight {
