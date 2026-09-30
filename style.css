@@ -484,18 +484,19 @@ VALUES ↓
 
 #values .row {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
 }
 
 .values__description {
 display: flex;
-align-items: column;
-flex-direction: column;
+align-items: center;
+flex-direction: row;
 }
 
 .feature__title {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 12px;
 
@@ -510,8 +511,8 @@ flex-direction: column;
 .values__img {
     width: 100%;
     display: flex;
-    flex-direction: flex;
-    align-items: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .values__description i {
@@ -524,9 +525,11 @@ flex-direction: column;
 
 .briefcase {
     fill: rgb(155, 44, 44);
-    width: 40px;
+    width: 100px;
     height: 40px;
     font-size: 60px;
+    display: flex;
+    flex-direction: column;
 }
 
 .values__content button {
