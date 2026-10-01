@@ -402,12 +402,11 @@ QUALITY WORK ↓
   font-size: 28px;
 }
 
-.quality__content button {
-    display: flex;
-    flex-direction: column;
+.quality__button {
+    display: inline-block;
     padding: 13px 32px;
-    background-color:#6415ff;
-    color: white;
+    background-color: #6415ff;
+    color:white;
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
