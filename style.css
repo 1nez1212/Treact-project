@@ -371,23 +371,26 @@ QUALITY WORK ↓
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 
 }
 
-.quality__content,
 .quality__img--wrapper {
-    width: 50;
-    justify-content: space-between;
+    width: 50%;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 12px;
-    margin: 0;
+    justify-content: flex-end;
+    align-items: center;
+
 }
 
 
 .quality__content {
+    width: 50%;
     padding-right: 64px;
+
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 
@@ -396,13 +399,14 @@ QUALITY WORK ↓
 .quality__img--wrapper {
     display: flex;
     margin: 0;
-    max-width: 600px;
+    max-width: 600;
+
 }
 
 .quality__img {
     display: block;
     width: 100%;
- 
+    max-width: 500px;
 }
 
 
