@@ -384,6 +384,8 @@ QUALITY WORK ↓
 }
 
 
+
+
 .quality__content {
     width: 50%;
     padding-right: 64px;
@@ -391,7 +393,39 @@ QUALITY WORK ↓
      display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    
+    
 }
+
+.title {
+    margin-bottom: 8px;
+
+
+}
+
+.description {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.body-text {
+    margin-bottom: 24px;
+}
+
+.action-btn {
+    margin:0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
 
 
 
@@ -412,7 +446,7 @@ QUALITY WORK ↓
 
 .font-weight {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 18px;
 }
 
 .quality__button {
