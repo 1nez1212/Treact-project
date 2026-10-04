@@ -631,12 +631,57 @@ justify-content: space-between;
     color: black;
     text-color: gray;
     font-size: 24px;
+    line-height: 3;
     
 }
 
-.plan__price-only {
-    font-size: 24px;
-    text-color: black;
+.plan__price {
+    font-size: 32px;
+    color: black;
+    line-height: 1;
+    align-items: center;
+    
+}
+
+.plan__selector {
+    color: black;
+    font-size: 20px;
+}
+
+.plan--one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 650px;  
+    margin: 0 auto;
+    border: 1px solid #e5e5e5;
+    border-top: 10px solid #25B5AD;
+    
+}
+
+.pricing-top {
+    text-align: center;
+    padding: 55px 2opx;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.pricing-middle {
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.pricing-bottom {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.plan__btn {
+    background-color: #25B5AD;
+    color: white;
+    border: none;
+    font-size: 32px;
 }
 
 .plan--highlighted {
@@ -650,6 +695,10 @@ justify-content: space-between;
     align-items: center;
 
     
+}
+
+.plan__btn2 {
+    background-color: 
 }
 
 
