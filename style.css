@@ -783,16 +783,16 @@ justify-content: space-between;
     color:#fff;
 }
 
-.plan__features2 {
+.plan__features2 li {
     font-size: 20px;
-    margin-bottom: 40px;
-    line-height: 3;
+    margin-bottom: 28px;
+    line-height: 2;
     font-weight: bold;
     text-align: center;
     color: #fff;
 }
 
-.plan__features {
+.plan__features2 {
     border-bottom: 2px solid #e5e7eb;
     width: 100%;
     padding: 32px 0;
@@ -807,7 +807,6 @@ justify-content: space-between;
     color: #fff;
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 
     line-height: 2;
 }
 .plan__btn2 {
@@ -817,12 +816,14 @@ justify-content: space-between;
     background-color: #fff;
     color: #6415ff;
     border: none;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
     border-radius: 40px;
-    line-height: 1;
+    line-height: 2;
+    margin-top: 20px;
+    margin-bottom: 12px 0;
 }
 
 
