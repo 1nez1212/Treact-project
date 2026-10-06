@@ -302,6 +302,8 @@ FEATURES ↓
     display: flex;
     flex-direction: column;
     align-items: center;
+    line-height: 2;
+    font-size: 12px;
     
 }
 
@@ -633,7 +635,7 @@ justify-content: space-between;
     font-size: 24px;
     font-weight: bold;
     line-height: 1;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
     
     
 }
@@ -646,20 +648,21 @@ justify-content: space-between;
 }
 
 .plan__features {
-    font-size: 16px;
-    margin-bottom: 20px;
-    line-height: 2;
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 3;
     font-weight: bold;
     text-align: center;
+
 }
 
 .plan__price {
-    font-size: 32px;
+    font-size: 40px;
     color: black;
     align-items: center;
     font-weight: bold;
     line-height: 1;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     
 }
 
@@ -668,19 +671,22 @@ justify-content: space-between;
     width: 100%;
     text-align: center;
     border-top: 2px solid #e5e7eb;
-    padding-top: 32px;
+    padding-top: 36px;
     color: black;
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 20px;
-    line-height: 1;
+    margin-bottom: 
+    line-height: 2;
 
 
 }
 
 .plan__duration {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
+    line-height: 2;
+    margin-bottom: 40px;
+    text-color: #777777;
 }
 
 
