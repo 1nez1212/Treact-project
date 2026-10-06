@@ -692,10 +692,11 @@ justify-content: space-between;
 
 .plan--one {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding: 32px 0;
     width: 400px;
-    height: 650px;  
+    min-height: 650px;
     margin: 0 auto;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
     border: 1px solid #e5e5e5;
@@ -742,21 +743,86 @@ justify-content: space-between;
 
 .plan--highlighted {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     background-color:#6415ff;
     width: 400px;
-    height: 650px;
+    padding: 32px 0;
+    min-height: 650px;
+    margin: 0 auto;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
     border-radius: 15px;
     align-items: center;
   
 }
 
-.plan--highlighted {
+.plan__name2 {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
     text-color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 28px;
 }
 
+.plan__price2 {
+    font-size: 40px;
+    color: #fff;
+    align-items: center;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+.plan__duration2 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2;
+    margin-bottom: 40px;
+    color:#fff;
+}
+
+.plan__features2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 3;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.plan__features {
+    border-bottom: 2px solid #e5e7eb;
+    width: 100%;
+    padding: 32px 0;
+}
+
+.plan__selector2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid #e5e7eb;
+    padding-top: 36px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 
+    line-height: 2;
+}
 .plan__btn2 {
-    background-color: 
+    display: inline-block;
+    width: 75%;
+    padding: 20px 30px;
+    background-color: #fff;
+    color: #6415ff;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 40px;
+    line-height: 1;
 }
 
 
