@@ -905,7 +905,7 @@ width: 100%;
 }
 
 .plan__features {
-     font-size: 20px;
+    font-size: 20px;
     margin-bottom: 28px;
     line-height: 2;
     font-weight: bold;
@@ -913,11 +913,37 @@ width: 100%;
     color: #898989;
 }
 
-.pricing__top {
+.plan--third .pricing__top {
     text-align: center;
     padding: 55px 20px;
     border-bottom: 1px solid #e5e5e5;
 }
+
+.plan--third .pricing__middle {
+    text-align: center;
+    padding: 55px 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.plan--third .pricing__bottom {
+    display: inline-block;
+    width: 75%;
+    padding: 20px 30px;
+    background-color: #EE7272;
+    color:#fff;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 40px;
+    line-height: 1;
+    margin-top: 32px;
+
+}
+
+
+
 
 
 
