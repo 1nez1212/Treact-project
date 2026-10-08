@@ -655,7 +655,7 @@ width: 100%;
 
 .plan__features {
     font-size: 20px;
-    margin-bottom: 40px;
+    flex: 1;
     line-height: 3;
     font-weight: bold;
     text-align: center;
@@ -746,6 +746,7 @@ width: 100%;
     text-align: center;
     border-radius: 40px;
     line-height: 1;
+    margin-top: 32px;
 }
 
 .plan--highlighted {
@@ -811,6 +812,7 @@ width: 100%;
     border-bottom: 2px solid #e5e7eb;
     width: 100%;
     padding: 32px 0;
+    flex: 1;
 }
 
 .plan__selector2 {
@@ -837,8 +839,7 @@ width: 100%;
     text-align: center;
     border-radius: 40px;
     line-height: 1;
-    margin-top: auto;
-    margin-bottom: 12px 0;
+    margin-top: 32px;
     
 }
 
