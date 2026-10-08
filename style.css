@@ -617,14 +617,21 @@ PRICING ↓
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 60%;
+    gap: 40%;
 }
 
-.plan {
+.plans {
 display: flex;
-flex-direction: column;
+flex-direction: row;
 align-items: center;
 justify-content: space-between;
+gap: 24px;
+width: 100%;
+}
+
+
+.plans .plan {
+    flex: 1;
 }
 
 .plan__name {
@@ -752,10 +759,17 @@ justify-content: space-between;
     min-height: 650px;
     margin: 0 auto;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-    border-radius: 15px;
+    border-radius: 8px;
     align-items: center;
+    border-top: 10px;
+    overflow: hidden;
   
 }
+
+.plans .plan {
+    flex: 1;
+}
+
 
 .plan__name2 {
     display: flex;
