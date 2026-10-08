@@ -918,20 +918,21 @@ width: 100%;
 
 .plan--third .pricing__top {
     text-align: center;
-
-    padding: 35px 20px;
+    padding: 30px 18px;
     border-bottom: 1px solid #e5e5e5;
 }
 
 .plan--third .pricing__middle {
     text-align: center;
-    padding: 35px 20px;
+    padding: 25px 18px;
     border-bottom: 1px solid #eeeeee;
     align-items: center;
 }
 
 .plan--third .plan__button {
     display: inline-block;
+    width: 75%;
+    box-sizing: border-box;
     background-color: #EE7272;
     color: #fff;
     padding: 20px 30px;
