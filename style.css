@@ -844,7 +844,7 @@ width: 100%;
     
 }
 
-.plan plan--third {
+.plan.plan--third {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -918,18 +918,16 @@ width: 100%;
 
 .plan--third .pricing__top {
     text-align: center;
-    justify-content: center;
 
-    padding: 55px 20px;
+    padding: 35px 20px;
     border-bottom: 1px solid #e5e5e5;
 }
 
 .plan--third .pricing__middle {
     text-align: center;
-    padding: 55px 20px;
+    padding: 35px 20px;
     border-bottom: 1px solid #eeeeee;
     align-items: center;
-    justify-content: center;
 }
 
 .plan--third .plan__button {
@@ -949,9 +947,16 @@ width: 100%;
     
 }
 
+.plan--third .pricing__bottom {
+    width: 100%;
+    text-align: center;
+}
+
 .plan--third .plan__features3 {
     list-style: none;
     padding-left: 0;
+    text-align: center;
+    width: 100%;
 }
 
 .plan--third {
