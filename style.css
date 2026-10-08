@@ -865,9 +865,9 @@ width: 100%;
 }
 
 .plan__name3 {
-    display: flex;
+    display: block;
     justify-content: space-between;
-    color: #fff;
+    color: black;
     text-color: #898989;
     font-size: 24px;
     font-weight: bold;
@@ -876,6 +876,7 @@ width: 100%;
 }
 
 .plan__price3 {
+    display: block;
     font-size: 40px;
     color: black;
     align-items: center;
@@ -885,7 +886,8 @@ width: 100%;
 }
 
 .plan__duration3 {
-    font-size: 18px;
+    display: block;
+    font-size: 20px;
     font-weight: bold;
     line-height: 2;
     margin-bottom: 40px;
@@ -896,16 +898,16 @@ width: 100%;
     display: block;
     width: 100%;
     text-align: center;
-    border-top: 2px solid #e5e7eb;
+    border-top: 2px solid #fff;
     padding-top: 36px;
     color: black;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     line-height: 2;
 }
 
-.plan__features {
-    font-size: 20px;
+.plan__features3 {
+    font-size: 24px;
     margin-bottom: 28px;
     line-height: 2;
     font-weight: bold;
@@ -913,8 +915,11 @@ width: 100%;
     color: #898989;
 }
 
+
 .plan--third .pricing__top {
     text-align: center;
+    justify-content: center;
+
     padding: 55px 20px;
     border-bottom: 1px solid #e5e5e5;
 }
@@ -923,24 +928,37 @@ width: 100%;
     text-align: center;
     padding: 55px 20px;
     border-bottom: 1px solid #eeeeee;
+    align-items: center;
+    justify-content: center;
 }
 
-.plan--third .pricing__bottom {
+.plan--third .plan__button {
     display: inline-block;
-    width: 75%;
-    padding: 20px 30px;
     background-color: #EE7272;
-    color:#fff;
-    border: none;
-    font-size: 20px;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 40px;
+    text-decoration: none;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
     border-radius: 40px;
     line-height: 1;
     margin-top: 32px;
-
+    margin-bottom: 20px;
+    
 }
+
+.plan--third .plan__features3 {
+    list-style: none;
+    padding-left: 0;
+}
+
+.plan--third {
+    border-top: 8px solid #EE7272;
+}
+
+
 
 
 
