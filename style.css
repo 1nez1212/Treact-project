@@ -692,6 +692,7 @@ justify-content: space-between;
 
 .plan--one {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding: 32px 0;
@@ -743,6 +744,7 @@ justify-content: space-between;
 
 .plan--highlighted {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     background-color:#6415ff;
     width: 400px;
@@ -821,8 +823,8 @@ justify-content: space-between;
     text-decoration: none;
     text-align: center;
     border-radius: 40px;
-    line-height: 2;
-    margin-top: 20px;
+    line-height: 1;
+    margin-top: 24px;
     margin-bottom: 12px 0;
 }
 
