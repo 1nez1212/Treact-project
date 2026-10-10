@@ -692,7 +692,7 @@ width: 100%;
     font-size: 18px;
     font-weight: bold;
     line-height: 2;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     text-color: #898989;
 }
 
@@ -796,7 +796,7 @@ width: 100%;
     font-size: 18px;
     font-weight: bold;
     line-height: 2;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     color:#fff;
 }
 
@@ -890,8 +890,8 @@ width: 100%;
     display: block;
     font-size: 20px;
     font-weight: bold;
-    line-height: 2;
-    margin-bottom: 16px;
+    line-height: 1;
+    margin-bottom: 24px;
     color: #898989;
 }
 
@@ -1059,6 +1059,59 @@ MOBILE RESPONSIVENESS ↓
         margin-top: 40px;
     }
 }
+
+@media (min-width: 769px) {
+  .plans .plan {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .plan__features,
+  .plan__features2,
+  .plan--third .pricing__middle {
+    flex-grow: 1;
+  }
+
+  .plan__btn,
+  .plan__btn2 {
+    margin-top: 32px;
+  }
+
+  .plan--third .pricing__bottom {
+    margin-top: auto;
+    padding: 0 20px 32px;
+    box-sizing: border-box;
+  }
+  .plan--third .plan__button {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .plan--third {
+    padding-bottom: 0;
+  }
+
+  .plan--third .pricing__bottom {
+    margin-top: auto;
+    padding: 0 20px 32px;
+  }
+
+  .plan.plan--third {
+    padding-bottom: 0;
+  }
+
+  .plan--third .pricing__bottom {
+    margin-top: auto;
+    padding: 0 20px 32px;
+    box-sizing: border-box;
+  }
+
+  .plan--third .plan__button {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
 
 @media (max-width: 768px) {
   .plans {
