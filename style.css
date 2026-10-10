@@ -654,7 +654,7 @@ width: 100%;
 }
 
 .plan__features {
-    font-size: 20px;
+    font-size: 18px;
     flex: 1;
     line-height: 3;
     font-weight: bold;
@@ -677,12 +677,13 @@ width: 100%;
     width: 100%;
     text-align: center;
     border-top: 2px solid #e5e7eb;
-    padding-top: 36px;
+    padding-top: 30px;
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
-    margin-bottom: 
-    line-height: 2;
+    margin-top: 24px;
+    
+    
 
 
 }
@@ -692,7 +693,7 @@ width: 100%;
     font-weight: bold;
     line-height: 2;
     margin-bottom: 40px;
-    text-color: #777777;
+    text-color: #898989;
 }
 
 
@@ -800,8 +801,8 @@ width: 100%;
 }
 
 .plan__features2 li {
-    font-size: 20px;
-    margin-bottom: 28px;
+    font-size: 18px;
+    margin-bottom: 18px;
     line-height: 2;
     font-weight: bold;
     text-align: center;
@@ -820,11 +821,11 @@ width: 100%;
     width: 100%;
     text-align: center;
     border-top: 2px solid #e5e7eb;
-    padding-top: 36px;
+    padding-top: 26px;
     color: #fff;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
-    line-height: 2;
+    line-height: 3;
 }
 .plan__btn2 {
     display: inline-block;
@@ -899,16 +900,16 @@ width: 100%;
     width: 100%;
     text-align: center;
     border-top: 2px solid #fff;
-    padding-top: 36px;
     color: black;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
-    line-height: 2;
+    line-height: 3;
+
 }
 
-.plan__features3 {
-    font-size: 24px;
-    margin-bottom: 28px;
+.plan__features3 li {
+    font-size: 18px;
+    margin-bottom: 18px;
     line-height: 2;
     font-weight: bold;
     text-align: center;
@@ -918,7 +919,7 @@ width: 100%;
 
 .plan--third .pricing__top {
     text-align: center;
-    padding: 30px 18px;
+    padding: 24px 18px;
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -953,11 +954,12 @@ width: 100%;
     text-align: center;
 }
 
-.plan--third .plan__features3 {
+.plan--third .plan__features3 li {
     list-style: none;
     padding-left: 0;
     text-align: center;
     width: 100%;
+    
 }
 
 .plan--third {
