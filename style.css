@@ -692,7 +692,7 @@ width: 100%;
     font-size: 18px;
     font-weight: bold;
     line-height: 2;
-    margin-bottom: 40px;
+    margin-bottom: 24px;
     text-color: #898989;
 }
 
@@ -729,7 +729,7 @@ width: 100%;
 }
 
 
-.pricin__bottom {
+.pricing__bottom {
     text-align: center;
     padding: 40px 20px;
 }
@@ -796,7 +796,7 @@ width: 100%;
     font-size: 18px;
     font-weight: bold;
     line-height: 2;
-    margin-bottom: 40px;
+    margin-bottom: 24px;
     color:#fff;
 }
 
@@ -891,7 +891,7 @@ width: 100%;
     font-size: 20px;
     font-weight: bold;
     line-height: 2;
-    margin-bottom: 40px;
+    margin-bottom: 24px;
     color: #898989;
 }
 
@@ -1059,6 +1059,32 @@ MOBILE RESPONSIVENESS ↓
         margin-top: 40px;
     }
 }
+
+@media (max-width: 768px) {
+  .plans {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+  }
+   .plans .plan {
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    flex: none;
+  }
+
+  .plan--third .pricing__bottom {
+    padding: 20px;
+  }
+
+  .plan--third .plan__button {
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+}
+
 
 @media(max-width: 640px) {
     .container {
