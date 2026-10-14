@@ -618,6 +618,10 @@ PRICING ↓
     align-items: center;
     justify-content: space-between;
     gap: 40%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 24px;
+    line-height: 2;
 }
 
 .plans {
@@ -985,8 +989,20 @@ TESTIMONIALS ↓
 
 #testimonials .row {
     display: flex;
+    align-items: row;
+    text-align: center;
 }
 
+.testimonials__img--wrapper{
+    display: row;
+    width: 50%;
+    justify-content: flex-end;
+
+}
+
+.testimonial__img {
+    width: 50%;
+}
 
 /* 
 
