@@ -989,19 +989,31 @@ TESTIMONIALS ↓
 
 #testimonials .row {
     display: flex;
-    align-items: row;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.testimonials__section {
+    align-items: center;
+    flex-direction: flex-end;
+    justify-content: space-between;
     text-align: center;
 }
 
-.testimonials__img--wrapper{
-    display: row;
+.testimonials__img--wrapper {
     width: 50%;
-    justify-content: flex-end;
+}
+
+.testimonials__img {
+    width: 50%;
+
 
 }
 
-.testimonial__img {
-    width: 50%;
+.testimonials__star-rating {
+    color: #d4af37;
 }
 
 /* 
