@@ -997,18 +997,15 @@ TESTIMONIALS ↓
 .testimonials__img,
 .testimonials__description {
     width: 50%;
-    font-size: 40px;
-    font-weight: 28px;
     justify-content: space-between;
     flex-direction: row;
+    line-height: 2;
 }
 
-.testimonials__description h2 {
-    font-size: 24px;
-    font-weight: 30px;
-    line-height: 3;
+.testimonials__title {
+    font-size: 36px;
+    font-weight: 700;
 }
-
 
 .testimonials__user {
     display: flex;
