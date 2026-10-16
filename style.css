@@ -1015,12 +1015,16 @@ TESTIMONIALS ↓
 }
 
 .testimonials__img {
-   
+   width: 20%;
 }
 
 
 .testimonials__star-rating i {
     color: #d4af37;
+}
+
+.love__illustration {
+    flex-shrink: 0;
 }
 
 /* 
