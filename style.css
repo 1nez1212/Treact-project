@@ -1000,6 +1000,7 @@ TESTIMONIALS ↓
     justify-content: space-between;
     flex-direction: row;
     line-height: 2;
+    font-size: 18px;
 }
 
 .testimonials__title {
@@ -1011,12 +1012,24 @@ TESTIMONIALS ↓
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 6px;
+    gap: 20px;
 }
 
+
+/* before */
 .testimonials__img {
-   width: 20%;
+    width: 50%;
+    
 }
+
+/* after */
+.testimonial__img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
 
 
 .testimonials__star-rating i {
