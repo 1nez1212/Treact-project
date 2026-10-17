@@ -1010,9 +1010,9 @@ TESTIMONIALS ↓
 
 
 .testimonials__description h2 {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1;
-    letter-spacing: 1.6px
+    
 }
 
 
@@ -1023,11 +1023,19 @@ TESTIMONIALS ↓
 
 }
 
+.testimonials__heading {
+    letter-spacing: 1.6px;
+}
+
 
 .testimonials__title
 .testimonials__description {
     text-align: left;
     font-size: 20px;
+}
+
+.testimonials__experience {
+    
 }
 
 
@@ -1060,6 +1068,7 @@ TESTIMONIALS ↓
 
 .testimonials__star-rating i {
     color: #d4af37;
+    line-height: 4;
 
 }
 
@@ -1072,6 +1081,7 @@ TESTIMONIALS ↓
     margin-top: 24px;
     font-size: 32px;
     cursor: pointer;
+
     
 }
 
