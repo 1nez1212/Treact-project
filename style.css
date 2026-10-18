@@ -1017,7 +1017,7 @@ TESTIMONIALS ↓
 
 
 .testimonials__description h3 {
-    font-size: 50px;
+    font-size: 48px;
     line-height: 1;
     font-weight: bold;
     margin-bottom: 24px;
@@ -1025,11 +1025,19 @@ TESTIMONIALS ↓
 }
 
 .testimonials__heading {
-    letter-spacing: 1.6px;
+    letter-spacing: 3.6px;
+    line-height: 0;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
 
-.testimonials__title
+.testimonials__title{
+    text-align: left;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
 .testimonials__description {
     text-align: left;
     font-size: 16px;
@@ -1037,9 +1045,13 @@ TESTIMONIALS ↓
 
 .testimonials__experience h2 {
     margin-bottom: 24px;
+    font-size: 16px;
 
 }
 
+.testimonials__experience--description p {
+    line-height: 2;
+}
 
 .testimonials__user {
     display: flex;
@@ -1064,13 +1076,13 @@ TESTIMONIALS ↓
     height: 80px;
     border-radius: 50%;
     object-fit: cover; 
+    margin-top: 28px;
    
 }
 
-
 .testimonials__star-rating i {
     color: #d4af37;
-    line-height: 4;
+    line-height: 3;
 
 }
 
@@ -1084,6 +1096,7 @@ TESTIMONIALS ↓
     font-size: 32px;
     cursor: pointer;
 
+
     
 }
 
@@ -1094,13 +1107,23 @@ TESTIMONIALS ↓
 }
 
 .testimonials__user {
+    display: flex;
     text-align: left;
+}
+
+.testimonials__info p {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .testimonials__arrow--feature {
     display: flex;
+    flex-direction: row;
     gap: 16px;
+    
 }
+
 
 
 .love__illustration {
