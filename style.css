@@ -1124,14 +1124,14 @@ TESTIMONIALS ↓
 
 .testimonials__arrow--feature {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 16px;
     background-color: #989898;
     width: 45px;
     height: 45px;
     border: none;
-    border-radius: 50%;
-    object-fit: cover;
+    border-radius: 50%; 
 }
 
 
