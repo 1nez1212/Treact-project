@@ -1076,7 +1076,8 @@ TESTIMONIALS ↓
     height: 80px;
     border-radius: 50%;
     object-fit: cover; 
-    margin-top: 28px;
+    margin-top: 2px;
+    line-height: 2;
    
 }
 
@@ -1117,23 +1118,39 @@ TESTIMONIALS ↓
 }
 
 .testimonials__info h3 {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
+    line-height: 1;
+}
+
+.testimonials__info p {
+    line-height: 2;
 }
 
 .testimonials__arrow--feature {
-    width: 45px;
-    height: 45px;
-    border: none;
-    border-radius: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 16px;
 }
 
+.testimonial__arrow {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background-color: #edf2f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
 
+.testimonial__arrow i {
+    color: #6415ff;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
 
 .love__illustration {
     flex-shrink: 0;
