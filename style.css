@@ -1123,15 +1123,14 @@ TESTIMONIALS ↓
 }
 
 .testimonials__arrow--feature {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    background-color: #989898;
     width: 45px;
     height: 45px;
     border: none;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
 }
 
 
