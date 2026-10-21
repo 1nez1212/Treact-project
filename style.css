@@ -1160,8 +1160,52 @@ START / CALL TO ACTION ↓
 #start .row {
     position: relative;
     overflow: hidden;
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 80px 60px;
+    background: linear-gradient(110deg, #6415ff);
+    border: 1px solid rgba (255, 255, 255, 0.25);
+    border-radius: 8px;
+    box-sizing: border-box;
 }
 
+.Action__description {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+    .Action__description h2 {
+        color: #fff;
+        font-size: 30px;
+        line-height: 1.5;
+        max-width: 520px;
+        margin: 0;
+    }
+
+    .Action__btn--Get__started {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .Action__btn--Contact__us {
+        display: inline-block;
+        padding: 22px 40px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 600;
+        white-space: nowrap;
+    }
+
+    .Action__btn--Get__started {
+        background: #fC6A03;
+        color: #fff;
+        border: 1px solid #fC6A03;
+    }
 
 /* 
 
