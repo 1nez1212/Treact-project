@@ -1210,6 +1210,12 @@ START / CALL TO ACTION ↓
 
     }
 
+    .Action__btn--Contact__us {
+        white-space: nowrap;
+        padding: 16px 32px;
+        border-radius: 50px;
+    }
+
     .Action__btn--Get__started button {
     font-size: 16px;
     font-weight: 700;
