@@ -1194,28 +1194,32 @@ START / CALL TO ACTION ↓
     }
 
     .Action__btn--Contact__us {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .Action__btn--Contact__us {
         padding: 16px 32px;
         border-radius: 50px;
         border: 1px solid white;
         background-color: transparent;
-        color: white;
         cursor: pointer;
+        font-size: 16px;
+        font-weight: 700;
 
     }
 
-    .Action__btn--Get__started {
-        padding: 16px 32px;
-        border-radius: 50px;
-        border: none;
-        background-color: #f97316;
-        color: white;
-        cursor: pointer;
-        
-    }
-
-    .Action__btn--Get__started {
-        font-size: 24px;
-    }
+    .Action__btn--Get__started button {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    background-color: #f97316;
+}
 
 /* 
 
