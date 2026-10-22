@@ -1202,9 +1202,14 @@ START / CALL TO ACTION ↓
     }
 
     .Action__btn--Get__started {
-        background: #fC6A03;
-        color: #fff;
-        border: 1px solid #fC6A03;
+        background-color: #FF6E00;
+        color: white;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 50px;
+        font-size: 12px;
+        font-weight: 600;
+        cursor: pointer;
     }
 
 /* 
