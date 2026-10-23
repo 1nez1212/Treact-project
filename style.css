@@ -1193,9 +1193,8 @@ START / CALL TO ACTION ↓
 
     .Action__btn--Get__started {
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         justify-content: space-between;
-        gap: 30px;
 
 
     }
@@ -1225,19 +1224,16 @@ START / CALL TO ACTION ↓
 
     .Action__btn--Contact__us  {
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         justify-content: center;
-        gap: 30px;
         
     }
 
-    .Action__btn--Contact__us,
-    .Action__btn--Get__started {
+    .Action__buttons {
         display: flex;
         align-items: center;
-        gap: 30px;
+        gap: 24px;
     }
-
 /* 
 
 FOOTER ↓
