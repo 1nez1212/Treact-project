@@ -1190,7 +1190,6 @@ START / CALL TO ACTION ↓
         max-width: 520px;
         margin: 0;
     }
-
     .Action__buttons button {
     font-size: 16px;
     font-weight: 700;
@@ -1202,7 +1201,7 @@ START / CALL TO ACTION ↓
     background-color: #f97316;
     }
 
-    .Action__buttons {
+    .Action__buttons{
         white-space: nowrap;
         padding: 16px 32px;
         border-radius: 50px;
@@ -1219,6 +1218,19 @@ START / CALL TO ACTION ↓
         align-items: center;
         gap: 24px;
     }
+
+    .btn--primary {
+        background-color: #f97316;
+        color: white;
+    }
+
+    .btn--secondary {
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+    }
+
+
 /* 
 
 FOOTER ↓
