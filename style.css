@@ -1189,9 +1189,9 @@ START / CALL TO ACTION ↓
 
     .Action__btn--Get__started {
         display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        margin: 0 auto;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin-right: 30px;
 
 
     }
@@ -1221,9 +1221,10 @@ START / CALL TO ACTION ↓
 
     .Action__btn--Contact__us  {
         display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        margin: 0 auto;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin-right: 30px;
+        
     }
 
 /* 
