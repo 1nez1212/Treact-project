@@ -1191,15 +1191,7 @@ START / CALL TO ACTION ↓
         margin: 0;
     }
 
-    .Action__buttons {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-
-    }
-
-    .Action__buttons {
+    .Action__buttons button {
     font-size: 16px;
     font-weight: 700;
     padding: 16px 32px;
@@ -1220,13 +1212,6 @@ START / CALL TO ACTION ↓
         cursor: pointer;
         font-size: 16px;
         font-weight: 700;
-    }
-
-    .Action__buttons {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
     }
 
     .Action__buttons {
