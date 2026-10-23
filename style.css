@@ -1191,7 +1191,7 @@ START / CALL TO ACTION ↓
         margin: 0;
     }
 
-    .Action__btn--Get__started {
+    .Action__buttons {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -1199,7 +1199,7 @@ START / CALL TO ACTION ↓
 
     }
 
-    .Action__btn--Get__started button {
+    .Action__buttons {
     font-size: 16px;
     font-weight: 700;
     padding: 16px 32px;
@@ -1210,7 +1210,7 @@ START / CALL TO ACTION ↓
     background-color: #f97316;
     }
 
-    .Action__btn--Contact__us button {
+    .Action__buttons {
         white-space: nowrap;
         padding: 16px 32px;
         border-radius: 50px;
@@ -1222,7 +1222,7 @@ START / CALL TO ACTION ↓
         font-weight: 700;
     }
 
-    .Action__btn--Contact__us  {
+    .Action__buttons {
         display: flex;
         align-items: center;
         justify-content: center;
