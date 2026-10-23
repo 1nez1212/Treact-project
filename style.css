@@ -1160,7 +1160,8 @@ START / CALL TO ACTION ↓
 #start .row {
     position: relative;
     overflow: hidden;
-    max-width: 1200px;
+    width: calc(100% - 80px);
+    max-width: 1400px;
     margin: 80px auto;
     padding: 80px 60px;
     background: linear-gradient(110deg, #6415ff);
@@ -1189,31 +1190,10 @@ START / CALL TO ACTION ↓
     .Action__btn--Get__started {
         display: flex;
         align-items: center;
-        gap: 30px;
+        justify-content: flex-end;
+        margin: 0 auto;
 
-    }
 
-    .Action__btn--Contact__us {
-        display: flex;
-        align-items: center;
-        gap: 30px;
-    }
-
-    .Action__btn--Contact__us {
-        padding: 16px 32px;
-        border-radius: 50px;
-        border: 1px solid white;
-        background-color: transparent;
-        cursor: pointer;
-        font-size: 16px;
-        font-weight: 700;
-
-    }
-
-    .Action__btn--Contact__us {
-        white-space: nowrap;
-        padding: 16px 32px;
-        border-radius: 50px;
     }
 
     .Action__btn--Get__started button {
@@ -1225,7 +1205,26 @@ START / CALL TO ACTION ↓
     color: white;
     cursor: pointer;
     background-color: #f97316;
-}
+    }
+
+    .Action__btn--Contact__us button {
+        white-space: nowrap;
+        padding: 16px 32px;
+        border-radius: 50px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .Action__btn--Contact__us  {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0 auto;
+    }
 
 /* 
 
