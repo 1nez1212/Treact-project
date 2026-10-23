@@ -1185,10 +1185,13 @@ START / CALL TO ACTION ↓
 
     .Action__description h2 {
         color: #fff;
-        font-size: 30px;
+        font-size: 28px;
+        font-weight: bold;
         line-height: 1.5;
         max-width: 520px;
-        margin: 0;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
     }
     .Action__buttons button {
     font-size: 16px;
@@ -1198,14 +1201,12 @@ START / CALL TO ACTION ↓
     border-radius: 50px;
     color: white;
     cursor: pointer;
-    background-color: #f97316;
     }
 
     .Action__buttons{
         white-space: nowrap;
         padding: 16px 32px;
         border-radius: 50px;
-        border: 1px solid white;
         background-color: transparent;
         color: white;
         cursor: pointer;
@@ -1215,8 +1216,12 @@ START / CALL TO ACTION ↓
 
     .Action__buttons {
         display: flex;
+        justify-content: center;
         align-items: center;
-        gap: 24px;
+        gap: 20px;
+        width: 100%;
+        margin: 0 auto;
+        line-height: 1.5;
     }
 
     .btn--primary {
@@ -1224,11 +1229,10 @@ START / CALL TO ACTION ↓
         color: white;
     }
 
-    .btn--secondary {
-        background-color: transparent;
-        border: 1px solid white;
-        color: white;
-    }
+   .Action__buttons .btn--secondary {
+    background-color: transparent;
+    border: 1px solid white;
+}
 
 
 /* 
