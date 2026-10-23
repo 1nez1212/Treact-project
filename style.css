@@ -1158,6 +1158,10 @@ START / CALL TO ACTION ↓
 
 
 #start .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
     position: relative;
     overflow: hidden;
     width: calc(100% - 80px);
@@ -1191,7 +1195,7 @@ START / CALL TO ACTION ↓
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
-        margin-right: 30px;
+        gap: 30px;
 
 
     }
@@ -1222,9 +1226,16 @@ START / CALL TO ACTION ↓
     .Action__btn--Contact__us  {
         display: flex;
         align-items: flex-end;
-        justify-content: space-between;
-        margin-right: 30px;
+        justify-content: center;
+        gap: 30px;
         
+    }
+
+    .Action__btn--Contact__us,
+    .Action__btn--Get__started {
+        display: flex;
+        align-items: center;
+        gap: 30px;
     }
 
 /* 
