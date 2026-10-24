@@ -1172,6 +1172,7 @@ START / CALL TO ACTION ↓
     border: 1px solid rgba (255, 255, 255, 0.25);
     border-radius: 8px;
     box-sizing: border-box;
+    
 }
 
 .Action__description {
@@ -1181,7 +1182,11 @@ START / CALL TO ACTION ↓
     align-items: center;
     justify-content: space-between;
     gap: 30px;
-}
+    }
+
+    .Action__description {
+        flex:1;
+    }
 
     .Action__description h2 {
         color: #fff;
@@ -1189,13 +1194,12 @@ START / CALL TO ACTION ↓
         font-weight: bold;
         line-height: 1.5;
         max-width: 520px;
-        width: 100%;
         align-items: center;
     }
     .Action__buttons button {
     font-size: 16px;
     font-weight: 700;
-    padding: 16px 32px;
+    padding: 20px 32px;
     border: none;
     border-radius: 50px;
     color: white;
@@ -1217,15 +1221,15 @@ START / CALL TO ACTION ↓
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 60%;
         gap: 20px;
-        width: 100%;
-        margin: 0 auto;
-        line-height: 1.5;
+        flex-shrink: 0;
     }
 
     .btn--primary {
         background-color: #f97316;
         color: white;
+        
     }
 
    .Action__buttons .btn--secondary {
