@@ -78,7 +78,10 @@ nav {
     margin: 8px 0;
     padding-bottom: 4px;
 }
-
+.nav__logo img {
+    width: 32px;
+    margin-right: 8px;
+}
 
 .btn__menu {
     display: none;
@@ -157,6 +160,7 @@ NAVIGATION
     display: flex;
     align-items: center;
     gap: 38px;
+    list-style: none;
 }
 
 .nav__links a {
@@ -1301,6 +1305,16 @@ MOBILE RESPONSIVENESS ↓
         width: 100%;
         text-align: center;
     }
+    .btn__menu {
+        display: block;
+    }
+    header .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer {
+        padding: 80px 32px;
+    }
 }
 
 
@@ -1322,16 +1336,6 @@ MOBILE RESPONSIVENESS ↓
     }
     .values--features {
         flex-direction: column;
-    }
-    .btn__menu {
-        display: block;
-    }
-    header .row {
-        flex-direction: column;
-        align-items: center;
-    }
-    footer {
-        padding: 80px 32px;
     }
 }
 
@@ -1422,11 +1426,15 @@ MOBILE RESPONSIVENESS ↓
 }
 
 @media (max-width: 768px) {
-    #start.row {
-        display: flex;
-        flex-direction: center;
-        align-items: center;
-        justify-content: space-between;
+    #start .row {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding: 48px 24px;
+    }
+    .Action__buttons {
+        width: 100%;
+        flex-direction: column;
     }
 }
 
@@ -1443,3 +1451,19 @@ MOBILE RESPONSIVENESS ↓
         margin-bottom: 80px;
     }
 }
+.hero__form {
+    flex-direction: column;
+    height: auto;
+    background: transparent;
+    box-shadow: none;
+    gap: 16px;
+}
+    .hero__form input,
+    .hero__form button {
+        width: 100%;
+        height: 56px;
+    }
+    .hero__form input {
+        border: 2px solid #e5e7eb;
+        border-radius: 50px;
+    }
