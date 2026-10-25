@@ -1174,25 +1174,29 @@ START / CALL TO ACTION ↓
     box-sizing: border-box;
 }
 
-.start__blob--1 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 20rem;
-  height: 20rem;
-  transform: translate(-5rem, 8rem);
-  opacity: 0.5;
+.start__row::before,
+.start__row::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background: rgba (255, 255, 255, 0.08);
+    pointer-events: none;
 }
 
-.start__blob--2 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 20rem;
-  height: 20rem;
-  transform: translate(5rem, -16rem);
-  opacity: 0.5;
+.start__row::before {
+    width: 300px;
+    height: 300px;
+    bottom: -180px;
+    left: -120px;
 }
+
+.start__row::after {
+    width: 260px;
+    height: 260px;
+    top: -140px;
+    right: -100px;
+}
+
 
 .Action__description {
     position: relative;
@@ -1391,6 +1395,15 @@ MOBILE RESPONSIVENESS ↓
     margin-top: 16px;
     margin-bottom: 0;
   }
+}
+
+@media (max-width: 768px) {
+    #start.row {
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 
 
