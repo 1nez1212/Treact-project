@@ -1169,34 +1169,33 @@ START / CALL TO ACTION ↓
     margin: 80px auto;
     padding: 80px 60px;
     background: linear-gradient(110deg, #6415ff);
-    border: 1px solid rgba (255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 8px;
     box-sizing: border-box;
 }
 
 .start__row::before,
 .start__row::after {
-    content: "";
+    content:"";
     position: absolute;
     border-radius: 50%;
-    background: rgba (255, 255, 255, 0.08);
-    pointer-events: none;
+    background: rgba(80, 17, 204, 0.5);
+    pointer-events:none;
 }
 
 .start__row::before {
-    width: 300px;
-    height: 300px;
-    bottom: -180px;
-    left: -120px;
+    width: 320px;
+    height: 320px;
+    bottom: -128px;
+    left: -80px;
 }
 
 .start__row::after {
-    width: 260px;
-    height: 260px;
-    top: -140px;
-    right: -100px;
+    width: 320px;
+    height: 320px;
+    top: -256px;
+    right: -80px;
 }
-
 
 .Action__description {
     position: relative;
@@ -1247,6 +1246,8 @@ START / CALL TO ACTION ↓
         width: 60%;
         gap: 20px;
         flex-shrink: 0;
+        position: relative;
+        z-index: 1;
     }
 
     .btn--primary {
@@ -1291,7 +1292,37 @@ MOBILE RESPONSIVENESS ↓
 }
 
 @media (max-width: 1024px) {
+    .nav__links {
+        display: none;
+    }
 
+    .hero__description,
+    .hero-image {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .feature {
+        width: 100%;
+    }
+    #quality {
+        padding: 80px 32px;
+    }
+    .quality__img--wrapper,
+    .quality__content,
+    .values__description,
+    .values__img--wrapper,
+    .testimonials__description,
+    .testimonials__img {
+        width: 100%;
+        padding: 0;
+    }
+    .values--features {
+        flex-direction: column;
+    }
     .btn__menu {
         display: block;
     }
@@ -1330,12 +1361,10 @@ MOBILE RESPONSIVENESS ↓
   .plan--third .pricing__middle {
     flex-grow: 1;
   }
-
   .plan__btn,
   .plan__btn2 {
     margin-top: 32px;
   }
-
   .plan--third .pricing__bottom {
     margin-top: auto;
     padding: 0 20px 32px;
@@ -1345,26 +1374,21 @@ MOBILE RESPONSIVENESS ↓
     margin-top: 0;
     margin-bottom: 0;
   }
-
   .plan--third {
     padding-bottom: 0;
   }
-
   .plan--third .pricing__bottom {
     margin-top: auto;
     padding: 0 20px 32px;
   }
-
   .plan.plan--third {
     padding-bottom: 0;
   }
-
   .plan--third .pricing__bottom {
     margin-top: auto;
     padding: 0 20px 32px;
     box-sizing: border-box;
   }
-
   .plan--third .plan__button {
     margin-top: 0;
     margin-bottom: 0;
