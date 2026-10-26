@@ -1302,7 +1302,7 @@ footer {
     text-decoration: none;
     color: white;
     margin-bottom: 12px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 1.4;
 }
@@ -1315,8 +1315,11 @@ footer {
     white-space: nowrap;
 }
 
-
-
+.footer__img {
+    display: flex;
+    align-items: left;
+    width: 20px;
+}
 /* 
 
 MOBILE RESPONSIVENESS ↓
