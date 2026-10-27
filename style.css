@@ -1368,6 +1368,30 @@ footer {
     white-space: nowrap;
 }
 
+.footer__socials {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer__socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.footer__socials a:hover {
+    background-color: rgba (255, 255, 255, 0.15);
+}
+
+
 /* 
 
 MOBILE RESPONSIVENESS ↓
