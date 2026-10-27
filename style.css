@@ -1324,23 +1324,50 @@ footer {
 
 .footer__bottom {
     display: flex;
-    justify-content:n space-between;
+    justify-content: space-between;
     align-items: center;
     padding: 40px 0;
     color: #ffffff;
 }
 
+.footer__logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
 .footer__logo img {
-    width: 160px;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
 }
 
-.footer__logo img p
+.footer__logo span {
     color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    
 }
 
 .footer__copyright p {
     color: #ffffff;
+    margin: 0 auto;
+
 }
+
+.footer__bottom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__copyright {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
 /* 
 
 MOBILE RESPONSIVENESS ↓
