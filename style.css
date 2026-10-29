@@ -1554,6 +1554,10 @@ MOBILE RESPONSIVENESS ↓
     footer {
         flex-direction: column;
     }
+    .footer__divider {
+        margin-top: 24px;
+        margin-bottom: 16px;
+    } 
     .footer__columns {
         flex-direction: center;
         justify-content: center;
@@ -1565,15 +1569,24 @@ MOBILE RESPONSIVENESS ↓
         flex-direction: column;
         justify-content: center;
         gap: 24px;
-        margin-bottom: 36px;
+        margin-top: 32px;
+        margin-bottom: 18px;
+    }
+    .footer__logo {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        margin-top: 24px;
     }
     .footer__copyright {
         justify-content: center;
-        margin-top: 36px;
+        align-items: center;
     }
     .footer__socials {
-        margin-top: 36px;
-        margin-bottom: 12px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 18px;
+        margin-bottom: 24px;
     }
 }
 
