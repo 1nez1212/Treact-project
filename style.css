@@ -1393,6 +1393,7 @@ footer {
 
 .footer__socials i {
     color: #ffffff;
+    object-fit: cover;
 }
 /* 
 
