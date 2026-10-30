@@ -319,6 +319,12 @@ FEATURES ↓
     text-align: center;
     
 }
+#features .row__narrow > h2,
+#features .row__narrow > .font-weight {
+    line-height: 1.25;
+    margin: 0;
+}
+
 .row__narrow p {
     font-size: 32px;
 }
