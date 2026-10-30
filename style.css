@@ -306,6 +306,10 @@ FEATURES ↓
 
 #features {
     position: relative;
+    font-size: 16px;
+}
+
+.feature__title {
     
 }
 
@@ -319,20 +323,27 @@ FEATURES ↓
     
 }
 
-.font-weight {
-  font-weight: 700;
-  font-size: 28px;
-}
+
 
 h2 {
-    color:#243e63
+    font-size: 14px;
+    color:#6415ff;
+    margin-top: 24px;
+
 }
 
 .purple--text {
+    margin-top: 32px;
+    margin-bottom: 16px;
     color:#6415ff;
+
 }
 
-
+.font-weight {
+    max-width: 300px;
+    margin: 24px;
+    text-align: center;
+}
 
 .features {
     display: flex;
@@ -1443,6 +1454,20 @@ MOBILE RESPONSIVENESS ↓
     .feature {
         width: 100%;
     }
+
+    .feature__text h2 {
+        font-size: 24px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
     #quality {
         padding: 80px 32px;
     }
