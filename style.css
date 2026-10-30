@@ -249,15 +249,15 @@ HERO SECTION
 .hero__form input {
     flex: 1;
     height: 100%;
-    padding: 0 24px;
+    padding: 14px;
     border: none;
     outline: none;
     background: transparent;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .hero__input::placeholder {
-    color: #b8b8b8;
+    color: #898989;
 }
 
 .hero__form button {
@@ -272,18 +272,25 @@ HERO SECTION
     cursor: pointer;
 }
 
+
+
 .hero-image img {
     width: 100%
 }
 
 .hero-image {
-    width: 60%
+    width: 60%;
 }
     
 .hero__description {
     width: 40%;
 }
 
+.hero__description p {
+    color: #989898;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
 .hero__description img {
     width: 100%;
 }
@@ -307,7 +314,8 @@ FEATURES ↓
     flex-direction: column;
     align-items: center;
     line-height: 2;
-    font-size: 12px;
+    font-size: 16px;
+    text-align: center;
     
 }
 
@@ -325,10 +333,11 @@ h2 {
 }
 
 
+
 .features {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 24px;
 }
 
 .feature {
