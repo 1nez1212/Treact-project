@@ -406,36 +406,28 @@ QUALITY WORK ↓
 
 }
 
-
-
-
 .quality__content {
-    width: 50%;
-    padding-right: 64px;
-
-     display: flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 24px;
+    width: 50%;
+    padding-right: 64px;
     text-align: left;
-    font-size: 20px;
-    font-weight: 700;
-    
+    font-size: 18px;
+    font-weight: 700;  
     
 }
 
 .title {
     margin-bottom: 8px;
 
-
 }
 
-.description {
+.quality__description {
     margin-bottom: 16px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
-    text-align: right;
 }
 
 .body-text {
@@ -447,11 +439,6 @@ QUALITY WORK ↓
     font-size: 16px;
     font-weight: 700;
 }
-
-
-
-
-
 
 .quality__img--wrapper {
     display: flex;
@@ -465,13 +452,10 @@ QUALITY WORK ↓
     width: 100%;
     max-width: 500px;
 }
-
-
-.font-weight {
-  font-weight: 700;
-  font-size: 18px;
+.quality__content h2 {
+    font-size: 24px;
+    font-weight: 700;
 }
-
 .quality__button {
     display: inline-block;
     padding: 13px 32px;
