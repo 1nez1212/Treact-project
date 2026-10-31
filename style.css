@@ -1518,9 +1518,16 @@ MOBILE RESPONSIVENESS ↓
         flex-direction: column-reverse;
     }
     .quality__content {
-        align-items:center;
+        align-items: center;
+        margin-top: 32px;
+        letter-spacing: 1.2px;
     }
-    .quality__description h2 {
+    #quality .quality__description {
+        width: 100%;
+
+    }
+    #quality .quality__description h2 {
+        font-size: 30px;
         width: 100%;
         text-align: left;
         max-width: none;
