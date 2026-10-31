@@ -523,9 +523,18 @@ STEPS ↓
     margin-left: 24px;
 }
 
-.font-weight {
-    font-size: 24px;
+.title__font-weight {
+    font-size: 18px;
+    margin-bottom: 16px;
+    letter-spacing: 1.6px;
+    
 }
+.font-weight {
+    font-size: 48px;
+    text-align: left;
+    font-weight: 800;
+}
+
 
 .steps__description,
 .steps__img--wrapper {
