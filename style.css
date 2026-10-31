@@ -306,7 +306,6 @@ FEATURES ↓
 
 #features {
     position: relative;
-    font-size: 16px;
 }
 
 
@@ -314,37 +313,46 @@ FEATURES ↓
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 2;
-    font-size: 16px;
-    text-align: center;
+    
     
 }
 #features .row__narrow > h2,
 #features .row__narrow > .font-weight {
     line-height: 1.25;
     margin: 0;
+    margin-bottom: 24px;
 }
 
 .row__narrow p {
     font-size: 32px;
+    color: #7c8ba1;
 }
 
+.row__narrow .font-weight {
+    color: rgb(36, 62, 99);
+    font-size: 48px;
+}
+
+
 h2 {
-    font-size: 14px;
+    font-size: 18px;
     color:#6415ff;
+    letter-spacing: 1.6px;
 
 }
 
 .purple--text {
     color:#6415ff;
+    font-weight: bold;
 
 }
 
 .font-weight {
-    font-size: 48px;
     max-width: 100%;
     text-align: center;
+    font-weight: bold;
 }
+
 .features {
     display: flex;
     flex-wrap: wrap;
@@ -376,6 +384,16 @@ h2 {
 .feature__text {
     margin-top: 8px;
     margin-left: 16px;
+    font-size: 18px;
+}
+
+.feature__text p {
+    color: #7c8ba1;
+}
+
+.feature__title {
+    font-size: 24px;
+    color:#243e63;
 }
 
 
@@ -415,26 +433,18 @@ QUALITY WORK ↓
     padding-right: 64px;
     text-align: left;
     font-size: 18px;
-    font-weight: 700;  
-    
+    font-weight: 700; 
 }
 
-.title {
-    margin-bottom: 8px;
-
-}
-
-.quality__description {
-    margin-bottom: 16px;
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.body-text {
+.quality__content p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 24px;
+    letter-spacing: 1.8;
+    font-size: 16px;
 }
-
-.action-btn {
+.quality__button {
     margin:0;
     font-size: 16px;
     font-weight: 700;
@@ -455,7 +465,23 @@ QUALITY WORK ↓
 .quality__content h2 {
     font-size: 24px;
     font-weight: 700;
+    color: rgb(36, 62, 99)
 }
+
+.quality__content span {
+    color: #6415ff;
+}
+
+.quality__description {
+    margin-bottom: 16px;
+    
+}
+
+.quality__description p {
+    color: #7c8ba1;
+}
+
+
 .quality__button {
     display: inline-block;
     padding: 13px 32px;
