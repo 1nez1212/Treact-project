@@ -1521,7 +1521,10 @@ MOBILE RESPONSIVENESS ↓
         align-items:center;
     }
     .quality__description h2 {
-        flex-direction: row;
+        width: 100%;
+        text-align: left;
+        max-width: none;
+        
         
 
     }
