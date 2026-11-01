@@ -498,23 +498,22 @@ STEPS ↓
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 48px;
 }
 
 .step {
     display: flex;
     align-items: flex-start;
-    margin-top: 32px;
+    margin-bottom: 32px;
+    
 }
 
-.step__title {
-    font-weight: bold;
-}
 
 .step__number {
     color: #cbd5e0;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1;
+    margin-bottom: 32px;
 }
 
 .step__description {
@@ -524,21 +523,26 @@ STEPS ↓
 }
 
 .title__font-weight {
-    font-size: 18px;
-    margin-bottom: 16px;
-    letter-spacing: 1.6px;
+    font-size: 20px;
+    margin-bottom: 24px;
+    letter-spacing: 2.0px;
     
 }
 .font-weight {
     font-size: 48px;
     text-align: left;
-    font-weight: 800;
+    font-weight: 900;
+    margin-bottom: 28px;
 }
 
-
+.step p {
+    font-size: 14px;
+    line-height: 2;
+}
 .steps__description,
 .steps__img--wrapper {
     width: 100%;
+    gap: 20px;
 }
 
 .steps__img {
