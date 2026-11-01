@@ -508,12 +508,25 @@ STEPS ↓
     
 }
 
+#steps .title__font-weight span {
+    font-weight: 700;
+}
+
 
 .step__number {
     color: #cbd5e0;
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 32px;
+    line-height: 1;
+    margin-bottom: 24px;
+
+}
+
+.step__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #243e63;
+    line-height: 1;
 }
 
 .step__description {
@@ -523,21 +536,32 @@ STEPS ↓
 }
 
 .title__font-weight {
-    font-size: 20px;
-    margin-bottom: 24px;
-    letter-spacing: 2.0px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    letter-spacing: 1.6px;
     
 }
-.font-weight {
+#steps .font-weight {
     font-size: 48px;
-    text-align: left;
     font-weight: 900;
-    margin-bottom: 28px;
+    line-height: 1.5;
+    text-align: left;
+    margin: 16px 0;
 }
 
-.step p {
+#steps .font-weight span {
+    font-weight: inherit;
+}
+
+.step__description p {
     font-size: 14px;
+    font-weight: 500;
+    color: #718096;
+    margin-top: 12px;
     line-height: 2;
+    flex-direction: column;
+    
+    
 }
 .steps__description,
 .steps__img--wrapper {
