@@ -1579,19 +1579,40 @@ MOBILE RESPONSIVENESS ↓
         align-items: center;
     }
 
+    .step {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+
+    .step__number {
+    margin-bottom: 16px;
+    }
+
+.step__description {
+    margin-left: 0;
+    }
+
     .title__font-weight {
         text-align: center;
         font-size: 16px;
-        line-height: 2;
-        margin-bottom: 4px;
     }
 
     .font-weight {
         text-align: center;
         width: 100%;
-        margin: 0 auto;
+        margin: 20px;
         white-space: nowrap;
-        margin-bottom: 14px;
+        margin-bottom: 32px;
+    }
+    
+    #steps .font-weight {
+    font-size: 30px;
+    white-space: normal;
+    text-align: center;
+    width: 100%;
+    max-width: none;
+    margin: 16px 0 32px;
     }
 
     .step__title {
