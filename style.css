@@ -1493,11 +1493,8 @@ MOBILE RESPONSIVENESS ↓
 
 
 @media (max-width: 768px) {
-    #features .row {
-        
-    }
     .feature {
-        width: 100%;
+       width: 100%;
         font-size: 24px;
     }
 
@@ -1511,21 +1508,24 @@ MOBILE RESPONSIVENESS ↓
         font-weight: 900;
         text-align: center;
         line-height: 1.2px;
-        margin-bottom: 24px;
+        margin-top: 0;
     }
 
     .font-weight span {
         display: block;
     }
     h2 span {
-        margin-bottom: 32px;
+        margin-bottom: 8px;
         font-size: 14px;
     }
     .row__narrow p {
         text-align: center;
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 24px;
 
+    }
+    #features .row__narrow h2 {
+        margin-bottom: 8px;
     }
     .font-weight {
         margin-top: 0;
@@ -1540,6 +1540,7 @@ MOBILE RESPONSIVENESS ↓
     }
     .feature__text p {
         font-size: 14px;
+        max-width: 2
     }
     .feature {
         display: flex;
@@ -1626,7 +1627,6 @@ MOBILE RESPONSIVENESS ↓
         text-align: center;
         width: 100%;
         margin: 20px;
-        white-space: nowrap;
         margin-bottom: 32px;
     }
     
