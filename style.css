@@ -1493,6 +1493,9 @@ MOBILE RESPONSIVENESS ↓
 
 
 @media (max-width: 768px) {
+    #features .row {
+        
+    }
     .feature {
         width: 100%;
         font-size: 24px;
@@ -1503,8 +1506,26 @@ MOBILE RESPONSIVENESS ↓
         max-width: 300px;
         margin: 16px;
     }
-    h2 {
-        margin-bottom: 2px;
+    .row__narrow .font-weight {
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+        line-height: 1.2px;
+        margin-bottom: 24px;
+    }
+
+    .font-weight span {
+        display: block;
+    }
+    h2 span {
+        margin-bottom: 32px;
+        font-size: 14px;
+    }
+    .row__narrow p {
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 24px;
+
     }
     .font-weight {
         margin-top: 0;
@@ -1512,11 +1533,14 @@ MOBILE RESPONSIVENESS ↓
 
 
     .feature__text h2 {
-        font-size: 24px;
+        font-size: 18px;
         align-items: center;
         max-width: 300px;
+        line-height: 1.6;
     }
-
+    .feature__text p {
+        font-size: 14px;
+    }
     .feature {
         display: flex;
         flex-direction: column;
