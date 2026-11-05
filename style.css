@@ -1468,12 +1468,16 @@ MOBILE RESPONSIVENESS ↓
     max-width: 1280px;
     margin: auto;
 }
-
 @media (max-width: 1024px) {
     .nav__links {
         display: none;
     }
-
+    .features .row__narrow {
+        flex-wrap: wrap;
+    }
+    .feature {
+        width: 50%;
+    }
     .hero__description,
     .hero-image {
         width: 100%;
