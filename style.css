@@ -1470,10 +1470,9 @@ MOBILE RESPONSIVENESS ↓
 }
 @media (max-width: 1024px) {
     .nav__links {
-        display: none;
     }
     }
-    
+
     @media (max-width: 1024px) {
         .row__narrow {
             flex-wrap: wrap;
@@ -1484,11 +1483,25 @@ MOBILE RESPONSIVENESS ↓
         .font-weight {
             display: block;
             white-space: nowrap;
-            font-size: 3
+            font-size: 36px;
         }
          .font-weight__span {
             display: inline;
-
+        }
+        .feature__text {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .feature__img--wrapper,
+        .feature__img,
+        .feature__text,
+        .feature__title,
+        .feature__para {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
         }
 
     .hero__description,
