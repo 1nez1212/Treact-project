@@ -1480,30 +1480,27 @@ MOBILE RESPONSIVENESS ↓
         .feature {
             width: 50%;
         }
+
         .font-weight {
-            display: block;
-            white-space: nowrap;
-            font-size: 36px;
-        }
-         .font-weight__span {
-            display: inline;
-        }
-        .feature__text {
             display: flex;
             flex-direction: row;
             align-items: center;
+            gap: 8px;
+            white-space: inline;
         }
-        .feature__img--wrapper,
-        .feature__img,
-        .feature__text,
-        .feature__title,
-        .feature__para {
-            display: flex;
+        .font-weight span h2 {
+            display: inline;
+            
+        }
+        .feature__row {
             flex-direction: row;
             justify-content: flex-start;
             align-items: center;
         }
-
+        .feature__title {
+            display: flex;
+            flex-direction: row;
+        }
     .hero__description,
     .hero-image {
         width: 100%;
@@ -1579,7 +1576,6 @@ MOBILE RESPONSIVENESS ↓
         gap: 12px;
     }
     .feature__row {
-        flex-direction: column;
         align-items: center;
         text-align: center;
     }
