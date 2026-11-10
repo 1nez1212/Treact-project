@@ -238,9 +238,11 @@ HERO SECTION
 .hero__form {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
-    height: 80px;
-    padding: 8px;
+    height: 70px;
+    padding: 5px;
+    max-width: 500px;
     background: #fff;
     border-radius: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
@@ -248,21 +250,22 @@ HERO SECTION
 
 .hero__form input {
     flex: 1;
+    min-width: 0;
     height: 100%;
-    padding: 14px;
     border: none;
     outline: none;
     background: transparent;
-    font-size: 20px;
+    padding-left: 25px;
+    font-size: 16px;
 }
 
 .hero__input::placeholder {
     color: #898989;
 }
 
-.hero__form button {
-    height: 64px;
-    padding: 0 45px;
+.hero__form--button {
+    height: 100%;
+    padding: 0 35px;
     border: none;
     border-radius: 50px;
     background: #6415ff;
@@ -270,6 +273,7 @@ HERO SECTION
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 
