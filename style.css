@@ -730,11 +730,7 @@ PRICING ↓
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 40%;
     text-align: center;
-    font-size: 30px;
-    font-weight: 24px;
-    line-height: 2;
 }
 .Pricing__content span {
     font-size: 16px;
@@ -747,7 +743,8 @@ PRICING ↓
 .pricing__description h2 {
     font-size: 48px;
     font-weight: 900;
-    margin-top: 48px;
+    margin-top: 16px 0;
+    line-height: 1.5;
 }
 
 .pricing__description h2 {
