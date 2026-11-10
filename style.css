@@ -237,6 +237,11 @@ HERO SECTION
     margin-top: 0;
 }
 
+.hero {
+  transform: translateY(-30px);
+}
+
+
 .hero__form {
     display: flex;
     align-items: center;
@@ -290,25 +295,37 @@ HERO SECTION
 .hero__title h1 {
     font-size: 48px;
     line-height: 1.15;
-    margin-top: 48px;
+    margin-top: 32px;
     gap: 8px;
     color: black;
 
 }
 
-.hero__para {
-    margin-bottom: 40px;
-    margin-top: 32px;
+.hero__para  {
+    font-size: 12px;
+    color: #898989;
+    margin-top: 80px;
+    text-align: left;
 }
 
+.hero__para img {
+    width: 60%;
+}
 .hero__title p {
     font-size: 18px;
     margin-top: 32px;
-    color: #718096;
+    flex-direction: column;
+}
+
+.hero__title p {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    line-height: 1.6;
 }
 
 .hero__description img {
-    margin-top: 12px;
+    margin-top: 
     gap: 6px;
     width: 60%;
     
