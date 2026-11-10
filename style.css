@@ -739,7 +739,9 @@ PRICING ↓
 .Pricing__content span {
     font-size: 16px;
     letter-spacing: 1.8px;
-    align-items: center;
+}
+.plans {
+  margin-top: 5rem;
 }
 
 .pricing__description h2 {
