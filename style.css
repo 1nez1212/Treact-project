@@ -315,7 +315,8 @@ HERO SECTION
     
 .hero__title h1 {
     font-size: 48px;
-    line-height: 1.15;
+    font-weight: 600;
+    line-height: 1.25;
     margin-top: 32px;
     gap: 8px;
     color: black;
@@ -1601,23 +1602,62 @@ MOBILE RESPONSIVENESS ↓
             width: 50%;
         }
     }
-        
+    #features .font-weight .purple--text {
+        display: inline;
+        flex-direction: column;
+    }
+    #features .feature__row {
+        flex-direction: row;
+        align-items: center;
+    }
+    #features.feature__title h2  
     .hero__description,
     .hero-image {
         width: 100%;
         text-align: center;
     }
 
-    .hero__title--1024 h1 {
-        display: flex;
+    .hero__title h1  {
+        flex-direction: row;
+        align-items: center;   
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .hero__title p {
+        font-size: 22px;
+        margin-top: 12px;
+    }
+
+    .hero__form {
         flex-direction: row;
         align-items: center;
-        
+    }
+    .hero__form {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+
+    .hero__para {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 24px;
+    }
+    .hero__para img {
+        width: 100%;
+    }
+    .hero-image {
+        width: 70%;
+        margin-top: 24px;
     }
     .hero__title {
         flex-direction: row;
         text-align: center;
     }
+
     .btn__menu {
         display: block;
     }
