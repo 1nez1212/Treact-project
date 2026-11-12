@@ -1603,6 +1603,11 @@ MOBILE RESPONSIVENESS ↓
             width: 50%;
         }
     }
+    .feature__row {
+        flex-direction: column;
+        align-items: center;
+        
+    }
     #features .font-weight .purple--text {
         display: inline;
         flex-direction: column;
@@ -1669,20 +1674,16 @@ MOBILE RESPONSIVENESS ↓
 
 
 @media (max-width: 768px) {
-    .feature__row {
+    .container {
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        justify-content: space-between;
     }
-    .feature__title  {
-       margin-left: 0;
-    }
-
     .row__narrow .font-weight {
         font-size: 36px;
         font-weight: 900;
         text-align: center;
-        line-height: 1.2px;
+        line-height: 1.2;
         margin-top: 0;
     }
 
