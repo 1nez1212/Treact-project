@@ -1674,7 +1674,7 @@ MOBILE RESPONSIVENESS ↓
         align-items: center;
         text-align: center;
     }
-    .feature__text {
+    .feature__title  {
        margin-left: 0;
     }
 
@@ -1716,7 +1716,6 @@ MOBILE RESPONSIVENESS ↓
     }
     .feature__text p {
         font-size: 16px;
-        max-width: 2
     }
     .feature {
         display: flex;
