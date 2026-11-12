@@ -420,6 +420,7 @@ h2 {
 
 .feature__row {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     padding: 32px 24px;
 }
@@ -1609,12 +1610,14 @@ MOBILE RESPONSIVENESS ↓
         flex-direction: column;
     }
     #features .feature__row {
+        display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        align-items: center;
+        padding: 32px 24px;
         width: 50%;
         line-height: 2;
-        margin-bottom: 10px;
-        gap: 4px;
+        margin-top: 4px;
+    
         
     }
     .feature__title {
