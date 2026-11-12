@@ -1610,7 +1610,13 @@ MOBILE RESPONSIVENESS ↓
     }
     #features .feature__row {
         flex-direction: row;
-        align-items: center;
+        width: 50%;
+        line-height: 2;
+        margin: 0
+        
+    }
+    .feature__title {
+        margin-bottom: 24px;
     }
     #features .feature__title h2, 
     .hero__description,
