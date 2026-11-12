@@ -443,10 +443,12 @@ h2 {
 }
 
 .feature__text p {
+    text-align: center;
     color: #7c8ba1;
 }
 
 .feature__title {
+    text-align: center;
     font-size: 24px;
     color:#243e63;
 }
@@ -1610,10 +1612,11 @@ MOBILE RESPONSIVENESS ↓
         flex-direction: row;
         align-items: center;
     }
-    #features.feature__title h2  
+    #features .feature__title h2, 
     .hero__description,
     .hero-image {
         width: 100%;
+        display: flex;
         text-align: center;
     }
 
@@ -1654,7 +1657,6 @@ MOBILE RESPONSIVENESS ↓
         margin-top: 24px;
     }
     .hero__title {
-        flex-direction: row;
         text-align: center;
     }
 
