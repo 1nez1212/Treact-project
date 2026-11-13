@@ -1743,6 +1743,10 @@ MOBILE RESPONSIVENESS ↓
     }
 }
 
+
+#values button {
+    align-self: center;
+}
 @media(max-width: 768px) {
     #quality .row,
     #values .row {
@@ -1838,7 +1842,7 @@ MOBILE RESPONSIVENESS ↓
         justify-content: center;
         text-align: center;
     }
-    .values__description .purple--text {
+    .values__description .purple--text__label {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1848,6 +1852,7 @@ MOBILE RESPONSIVENESS ↓
         margin-bottom: 16px;
         letter-spacing: 1.2px;
         font-weight: 600;
+        color:#6415ff;
         
     }
     .values__description .font-weight {
@@ -1856,19 +1861,24 @@ MOBILE RESPONSIVENESS ↓
         justify-content: center;
         margin: 0 auto;
     }
+    .values__description .purple--text__highlight {
+        color:#6415ff;
+        letter-spacing: 1.2px;
+        font-weight: 900;
+    }
     .values__description p {
         text-align: center;
         font-size: 16px;
-        margin-top: 20px;
+        margin-top: 16px;
     }
     .values--features i {
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 50%;
         font-size: 24px;
         justify-content: center;
-        margin: 0 auto;
+        
+        
         
     }
     .values--features h3 {
@@ -1877,15 +1887,37 @@ MOBILE RESPONSIVENESS ↓
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 100%;
         font-size: 18px;
-        margin: 0 auto;
+
 
         
     }
     #pricing .row {
         margin-top: 40px;
     }
+}
+.values--features .feature__title {
+  justify-content: center;
+  margin-top: 28px;
+}
+.values--features p{
+    font-size: 16px;
+}
+.values--features i,
+.values--features .briefcase {
+  width: 40px;
+  margin: 0;
+}
+.values--features h3 {
+  width: auto;
+  margin: 0;
+}
+.value--feature .feature__title {
+    margin-bottom: 28px;
+}
+.value--feature p {
+    font-size: 16px;
+    margin-bottom: 24px;
 }
 
 @media (min-width: 769px) {
