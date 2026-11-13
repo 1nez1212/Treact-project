@@ -1849,7 +1849,7 @@ MOBILE RESPONSIVENESS ↓
         justify-content: center;
         text-align: center;
         font-size: 16px;
-        margin-bottom: 16px;
+        margin-bottom: 0;
         letter-spacing: 1.2px;
         font-weight: 600;
         color:#6415ff;
@@ -1868,8 +1868,9 @@ MOBILE RESPONSIVENESS ↓
     }
     .values__description p {
         text-align: center;
-        font-size: 16px;
+        font-size: 18px;
         margin-top: 16px;
+        line-height: 2;
     }
     .values--features i {
         display: flex;
@@ -1887,21 +1888,15 @@ MOBILE RESPONSIVENESS ↓
         justify-content: center;
         align-items: center;
         text-align: center;
-        font-size: 18px;
+        font-size: 20px;
 
 
         
-    }
-    #pricing .row {
-        margin-top: 40px;
     }
 }
 .values--features .feature__title {
   justify-content: center;
   margin-top: 28px;
-}
-.values--features p{
-    font-size: 16px;
 }
 .values--features i,
 .values--features .briefcase {
@@ -1911,13 +1906,12 @@ MOBILE RESPONSIVENESS ↓
 .values--features h3 {
   width: auto;
   margin: 0;
-}
-.value--feature .feature__title {
-    margin-bottom: 28px;
+  font-size: 20px;
 }
 .value--feature p {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 24px;
+    line-height: 2;
 }
 
 @media (min-width: 769px) {
