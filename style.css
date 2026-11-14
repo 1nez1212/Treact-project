@@ -1809,7 +1809,6 @@ MOBILE RESPONSIVENESS ↓
     .font-weight {
         text-align: center;
         width: 100%;
-        margin-bottom: 32px;
     }
     
     #steps .font-weight {
@@ -1967,6 +1966,11 @@ MOBILE RESPONSIVENESS ↓
     gap: 24px;
     width: 100%;
   }
+  
+  .pricing__description p {
+    margin-top: 18px;
+  }
+  
    .plans .plan {
     width: 100%;
     max-width: 400px;
@@ -1984,6 +1988,7 @@ MOBILE RESPONSIVENESS ↓
     margin-bottom: 0;
   }
 }
+
 
 @media (max-width: 768px) {
     #start .row {
