@@ -1422,7 +1422,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 200px;
 }
 
 .footer__title {
@@ -1431,7 +1431,8 @@ footer {
     align-items: flex-start;
     text-align: left;
     gap: 14px;
-    min-width: 0;
+    min-width:0;
+    
 }
 .footer__links a {
     display: block;
@@ -1545,7 +1546,7 @@ footer {
     pointer-events:none;
 }
 
-footer::before {
+.footer__row::before {
     width: 320px;
     height: 320px;
     bottom: -128px;
@@ -1618,9 +1619,9 @@ MOBILE RESPONSIVENESS ↓
     }
 
     .hero__title h1  {
-        flex-direction: row;
-        align-items: center;   
-        font-size: 28px;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
         font-weight: 700;
     }
     .hero__title p {
@@ -1671,6 +1672,38 @@ MOBILE RESPONSIVENESS ↓
 
 
 @media (max-width: 768px) {
+    .hero__title h1 > span {
+        display: block;
+    }
+    .hero__title h1 .purple--text {
+        display: inline;
+        font-weight: 600;
+    }
+    .hero__form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        height: 50px;
+        font-size: 14px;
+        padding: 12px 16px;
+        gap: 16px;
+    }
+    .hero__para p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .hero__para img {
+        margin-top: 24px;
+    }
+    .hero__form--button {
+        width: 100%;
+        height: 50px;
+        font-size: 16px;
+        padding: 16px 24px;
+        gap: 
+    }
     .container {
         display: flex;
         flex-direction: column;
@@ -2004,8 +2037,10 @@ MOBILE RESPONSIVENESS ↓
 
 @media (max-width: 768px) {
     .testimonials__heading {
+        font-size: 26px;
         text-align: center;
         margin-top: 20px;
+        letter-spacing: 2.1px;
     }
     .testimonials__title {
         white-space: nowrap;
@@ -2025,14 +2060,16 @@ MOBILE RESPONSIVENESS ↓
     .testimonials__experience--description {
         text-align: center;
     }
+    .testimonials__bottom,
     .testimonials__user,
     .testimonials__img,
     .testimonials__info {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: auto;
-        
+        margin: 0 auto;
+    }  
+    } 
     .testimonials__arrow--feature {
         display: flex;
         flex-direction: row;
@@ -2050,6 +2087,7 @@ MOBILE RESPONSIVENESS ↓
     } 
     .footer__columns {
         justify-content: center;
+        gap: 30px;
     }
     .footer__title {
         align-items: center;
@@ -2080,8 +2118,9 @@ MOBILE RESPONSIVENESS ↓
         margin-bottom: 20px;
         line-height: 2;
     }
-}
-
+    .footer__columns h2 {
+        font-size: 16px;
+    }
 @media(max-width: 640px) {
     .container {
         padding: 80px 0;
